@@ -36,19 +36,19 @@
 }
 .p {
     font-size: var(--p-size);
-    font-family: var(--heading-font);
+    font-family: var(--body-font);
     font-weight: var(--p-weight);
     line-height: var(--p-line-height);
 }
 .m {
     font-size: var(--m-size);
-    font-family: var(--heading-font);
+    font-family: var(--body-font);
     font-weight: var(--m-weight);
     line-height: var(--m-line-height);
 }
 .s {
     font-size: var(--s-size);
-    font-family: var(--heading-font);
+    font-family: var(--body-font);
     font-weight: var(--s-weight);
     line-height: var(--s-line-height);
 }
