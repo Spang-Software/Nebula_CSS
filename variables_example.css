@@ -1,5 +1,8 @@
-/* Variables */
 :root {
+
+/******************************************************/
+/* NEBULA CSS *****************************************/
+/******************************************************/
 
 /* Colors --------------------------------------------*/
 --black: #000000;
@@ -44,79 +47,49 @@
 --heading-font: Arial, Helvetica, sans-serif;
 --body-font: Arial, Helvetica, sans-serif;
 
---typography-h1-weight: 600;
---typography-h1-line-height: 1.2;
---typography-h2-weight: 600;
---typography-h2-line-height: 1.2;
---typography-h3-weight: 600;
---typography-h3-line-height: 1.2;
---typography-h4-weight: 600;
---typography-h4-line-height: 1.2;
---typography-h5-weight: 600;
---typography-h5-line-height: 1.2;
---typography-h6-weight: 600;
---typography-h6-line-height: 1.2;
---typography-p-weight: 400;
---typography-p-line-height: 1.6;
---typography-m-weight: 400;
---typography-m-line-height: 1.6;
---typography-s-weight: 400;
---typography-s-line-height: 1.6;
-
-/* buttons --------------------------------------------*/
---buttons-primary-text-color: var(--color-shade-0);
---buttons-primary-background-color: var(--color-shade-10);
---buttons-primary-border-color: var(--color-shade-10);
---buttons-secondary-text-color: var(--color-shade-10);
---buttons-secondary-background-color: var(--color-transparent);
---buttons-secondary-border-color: var(--color-shade-10);
---buttons-tertiary-text-color: var(--color-shade-10);
---buttons-tertiary-background-color: var(--color-transparent);
---buttons-tertiary-border-color: var(--color-transparent);
+--h1-weight: 600;
+--h1-line-height: 1.2;
+--h2-weight: 600;
+--h2-line-height: 1.2;
+--h3-weight: 600;
+--h3-line-height: 1.2;
+--h4-weight: 600;
+--h4-line-height: 1.2;
+--h5-weight: 600;
+--h5-line-height: 1.2;
+--h6-weight: 600;
+--h6-line-height: 1.2;
+--p-weight: 400;
+--p-line-height: 1.6;
+--m-weight: 400;
+--m-line-height: 1.6;
+--s-weight: 400;
+--s-line-height: 1.6;
 
 /* Borders --------------------------------------------*/
---border-color: var(--color-shade-6);
---border-width: 0.0625rem;
---border-radius: 0.375rem;
+--border-color: var(--gray);
+--border-width: 1px;
+--border-radius: 0rem;
 --border-style: solid;
 --border: var(--border-width) var(--border-style) var(--border-color);
 
-/* Inputs --------------------------------------------*/
---inputs-text-color: var(--color-shade-10);
---inputs-background-color: var(--color-transparent);
---inputs-placeholder-color: var(--color-shade-8);
-
-
 /* Miscellaneous --------------------------------------------*/
---svg-stroke-color: var(--color-shade-10);
---svg-fill-color: var(--color-shade-10);
---transition-duration : 0.3s;
---transition-timing-function: ease;
---transition: var(--transition-duration) var(--transition-timing-function);
---box-shadow-light: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
---box-shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
---box-shadow-heavy: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
---box-shadow : var(--box-shadow-light);
+--trans-duration : 0.3s;
+--trans-timing-function: ease-in-out;
+--trans: var(--trans-duration) var(--trans-timing-function);
+--trans-bounce: var(--trans-duration) cubic-bezier(0.44, 0.01, 0.22, 1.8);
 
 /* Breakpoints --------------------------------------------*/
---breakpoint-xs: 25rem;
---breakpoint-sm: 37.5rem;
---breakpoint-md: 68.75rem;
---breakpoint-lg: 93.75rem;
---breakpoint-xl: 106.25rem;
+--xxs: 360px;
+--xs: 420px;
+--sm: 640px;
+--md: 900px;
+--lg: 1280px;
+--xl: 1440px;
+--xxl: 1600px;
 
-/* body --------------------------------------------*/
---body-max-width: 1200px;
---body-background-color: var(--color-shade-0);
-
-/* header --------------------------------------------*/
---header-position: fixed;
---header-height: 60px;
---header-color: var(--color-shade-10);
---header-background-color: var(--color-shade-0);
-
-/* footer --------------------------------------------*/
---footer-color: var(--color-shade-10);
---footer-background-color: var(--color-shade-0);
+/******************************************************/
+/* END NEBULA CSS *************************************/
+/******************************************************/
 
 }
