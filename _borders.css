@@ -1,0 +1,36 @@
+.rounded {
+    border-radius: var(--border-radius);
+}
+.rounded-full {
+    border-radius: 50%;
+}
+.border {
+    border: var(--border);
+}
+.border-none {
+    border: none;
+}
+.border-l {
+    border-left: var(--border);
+}
+.border-r {
+    border-right: var(--border);
+}
+.border-t {
+    border-top: var(--border);
+}
+.border-b {
+    border-bottom: var(--border);
+}
+.border-l-none {
+    border-left: none;
+}
+.border-r-none {
+    border-right: none;
+}
+.border-t-none {
+    border-top: none;
+}
+.border-b-none {
+    border-bottom: none;
+}

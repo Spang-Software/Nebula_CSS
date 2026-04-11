@@ -1,0 +1,85 @@
+.input, .textarea, .select {
+    width: 100%;
+    border-radius: var(--border-radius);
+    padding: var(--size-2) var(--size-3);
+    border: var(--border);
+    background-color: var(--inputs-background-color);
+    color: var(--inputs-text-color);
+    font-size: var(--typography-scale-p);
+    font-weight: var(--typography-body-weight);
+    font-family: var(--typography-body-font);
+    transition: var(--transition);
+    box-shadow: 0 0 0;
+    z-index: 2;
+    position: relative;
+}
+.input::placeholder, .textarea::placeholder {
+    color: var(--inputs-placeholder-color);
+}
+.input:hover, .textarea:hover, .select:hover {
+    border-color: var(--color-shade-10);
+}
+.input:focus, .textarea:focus, .select:focus {
+    outline: none;
+    border-color: var(--color-shade-10);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-shade-10) 15%, transparent);
+}
+.textarea {
+    min-height: var(--size-11); 
+    resize: vertical;
+}
+/* .select {
+
+} */
+/* .select[multiple] {
+
+} */
+.input[disabled], .textarea[disabled], .select[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.input[readonly], .textarea[readonly], .select[readonly] {
+    opacity: 0.7;
+    cursor: default;
+}
+.input[type="checkbox"], .input[type="radio"] {
+    width: fit-content;
+    height: var(--size-3);
+    aspect-ratio: 1 / 1;
+    padding: 0;
+    border: var(--border);
+    accent-color: var(--inputs-text-color);
+    cursor: pointer;
+}
+.input[type="color"], .input[type="color"]::-webkit-color-swatch, .input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+    cursor: pointer;
+}
+.input[type="range"] {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    accent-color: var(--inputs-text-color);
+    cursor: pointer;
+}
+.input[type=file] {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.input[type=file]::file-selector-button {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: var(--size-1) var(--size-3);
+    font-size: var(--typography-scale-p);
+    font-weight: var(--typography-body-weight);
+    font-family: var(--typography-body-font);
+    color: var(--buttons-secondary-text-color);
+    background-color: var(--buttons-secondary-background-color);
+    border-color: var(--buttons-secondary-border-color);
+    cursor: pointer;
+}
+.required {
+    color: #a51d1d;
+}
