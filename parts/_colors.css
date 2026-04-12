@@ -46,6 +46,9 @@
 .bg-tertiary {
     background-color: var(--tertiary);
 }
+.bd-transparent {
+    background-color: transparent;
+}
 .border-black {
     border-color: var(--black);
 }
