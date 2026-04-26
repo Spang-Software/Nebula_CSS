@@ -22,6 +22,14 @@
 .border-b {
     border-bottom: var(--border);
 }
+.border-x {
+    border-left: var(--border);
+    border-right: var(--border);
+}
+.border-y {
+    border-top: var(--border);
+    border-bottom: var(--border);
+}
 .border-l-none {
     border-left: none;
 }
