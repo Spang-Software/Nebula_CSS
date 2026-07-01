@@ -37,6 +37,9 @@
 .m-128 {
     margin: var(--s128);
 }
+.m-160 {
+    margin: var(--s160);
+}
 .m-208 {
     margin: var(--s208);
 }
@@ -97,6 +100,10 @@
 .mx-128 {
     margin-left: var(--s128);
     margin-right: var(--s128);
+}
+.mx-160 {
+    margin-left: var(--s160);
+    margin-right: var(--s160);
 }
 .mx-208 {
     margin-left: var(--s208);
@@ -162,6 +169,10 @@
     margin-top: var(--s128);
     margin-bottom: var(--s128);
 }
+.my-160 {
+    margin-top: var(--s160);
+    margin-bottom: var(--s160);
+}
 .my-208 {
     margin-top: var(--s208);
     margin-bottom: var(--s208);
@@ -213,6 +224,9 @@
 .mt-128 {
     margin-top: var(--s128);
 }
+.mt-160 {
+    margin-top: var(--s160);
+}
 .mt-208 {
     margin-top: var(--s208);
 }
@@ -260,6 +274,9 @@
 }
 .ml-128 {
     margin-left: var(--s128);
+}
+.ml-160 {
+    margin-left: var(--s160);
 }
 .ml-208 {
     margin-left: var(--s208);
@@ -309,6 +326,9 @@
 .mb-128 {
     margin-bottom: var(--s128);
 }
+.mb-160 {
+    margin-bottom: var(--s160);
+}
 .mb-208 {
     margin-bottom: var(--s208);
 }
@@ -356,6 +376,9 @@
 }
 .mr-128 {
     margin-right: var(--s128);
+}
+.mr-160 {
+    margin-right: var(--s160);
 }
 .mr-208 {
     margin-right: var(--s208);

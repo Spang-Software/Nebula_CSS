@@ -37,6 +37,9 @@
 .p-128 {
     padding: var(--s128);
 }
+.p-160 {
+    padding: var(--s160);
+}
 .p-208 {
     padding: var(--s208);
 }
@@ -97,6 +100,10 @@
 .px-128 {
     padding-left: var(--s128);
     padding-right: var(--s128);
+}
+.px-160 {
+    padding-left: var(--s160);
+    padding-right: var(--s160);
 }
 .px-208 {
     padding-left: var(--s208);
@@ -162,6 +169,10 @@
     padding-top: var(--s128);
     padding-bottom: var(--s128);
 }
+.py-160 {
+    padding-top: var(--s160);
+    padding-bottom: var(--s160);
+}
 .py-208 {
     padding-top: var(--s208);
     padding-bottom: var(--s208);
@@ -213,6 +224,9 @@
 .pt-128 {
     padding-top: var(--s128);
 }
+.pt-160 {
+    padding-top: var(--s160);
+}
 .pt-208 {
     padding-top: var(--s208);
 }
@@ -260,6 +274,9 @@
 }
 .pl-128 {
     padding-left: var(--s128);
+}
+.pl-160 {
+    padding-left: var(--s160);
 }
 .pl-208 {
     padding-left: var(--s208);
@@ -309,6 +326,9 @@
 .pb-128 {
     padding-bottom: var(--s128);
 }
+.pb-160 {
+    padding-bottom: var(--s160);
+}
 .pb-208 {
     padding-bottom: var(--s208);
 }
@@ -356,6 +376,9 @@
 }
 .pr-128 {
     padding-right: var(--s128);
+}
+.pr-160 {
+    padding-right: var(--s160);
 }
 .pr-208 {
     padding-right: var(--s208);

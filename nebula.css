@@ -257,6 +257,9 @@ xxl = 1600px
 .gap-128 {
     gap: var(--s128);
 }
+.gap-160 {
+    gap: var(--s160);
+}
 .gap-208 {
     gap: var(--s208);
 }
@@ -331,6 +334,11 @@ xxl = 1600px
        -moz-column-gap: var(--s128);
             column-gap: var(--s128);
 }
+.gap-x-160 {
+    -webkit-column-gap: var(--s160);
+       -moz-column-gap: var(--s160);
+            column-gap: var(--s160);
+}
 .gap-x-208 {
     -webkit-column-gap: var(--s208);
        -moz-column-gap: var(--s208);
@@ -384,6 +392,9 @@ xxl = 1600px
 }
 .gap-y-128 {
     row-gap: var(--s128);
+}
+.gap-y-160 {
+    row-gap: var(--s160);
 }
 .gap-y-208 {
     row-gap: var(--s208);
@@ -1617,6 +1628,9 @@ xxl = 1600px
 .p-128 {
     padding: var(--s128);
 }
+.p-160 {
+    padding: var(--s160);
+}
 .p-208 {
     padding: var(--s208);
 }
@@ -1677,6 +1691,10 @@ xxl = 1600px
 .px-128 {
     padding-left: var(--s128);
     padding-right: var(--s128);
+}
+.px-160 {
+    padding-left: var(--s160);
+    padding-right: var(--s160);
 }
 .px-208 {
     padding-left: var(--s208);
@@ -1742,6 +1760,10 @@ xxl = 1600px
     padding-top: var(--s128);
     padding-bottom: var(--s128);
 }
+.py-160 {
+    padding-top: var(--s160);
+    padding-bottom: var(--s160);
+}
 .py-208 {
     padding-top: var(--s208);
     padding-bottom: var(--s208);
@@ -1793,6 +1815,9 @@ xxl = 1600px
 .pt-128 {
     padding-top: var(--s128);
 }
+.pt-160 {
+    padding-top: var(--s160);
+}
 .pt-208 {
     padding-top: var(--s208);
 }
@@ -1840,6 +1865,9 @@ xxl = 1600px
 }
 .pl-128 {
     padding-left: var(--s128);
+}
+.pl-160 {
+    padding-left: var(--s160);
 }
 .pl-208 {
     padding-left: var(--s208);
@@ -1889,6 +1917,9 @@ xxl = 1600px
 .pb-128 {
     padding-bottom: var(--s128);
 }
+.pb-160 {
+    padding-bottom: var(--s160);
+}
 .pb-208 {
     padding-bottom: var(--s208);
 }
@@ -1937,6 +1968,9 @@ xxl = 1600px
 .pr-128 {
     padding-right: var(--s128);
 }
+.pr-160 {
+    padding-right: var(--s160);
+}
 .pr-208 {
     padding-right: var(--s208);
 }
@@ -1984,6 +2018,9 @@ xxl = 1600px
 }
 .m-128 {
     margin: var(--s128);
+}
+.m-160 {
+    margin: var(--s160);
 }
 .m-208 {
     margin: var(--s208);
@@ -2045,6 +2082,10 @@ xxl = 1600px
 .mx-128 {
     margin-left: var(--s128);
     margin-right: var(--s128);
+}
+.mx-160 {
+    margin-left: var(--s160);
+    margin-right: var(--s160);
 }
 .mx-208 {
     margin-left: var(--s208);
@@ -2110,6 +2151,10 @@ xxl = 1600px
     margin-top: var(--s128);
     margin-bottom: var(--s128);
 }
+.my-160 {
+    margin-top: var(--s160);
+    margin-bottom: var(--s160);
+}
 .my-208 {
     margin-top: var(--s208);
     margin-bottom: var(--s208);
@@ -2161,6 +2206,9 @@ xxl = 1600px
 .mt-128 {
     margin-top: var(--s128);
 }
+.mt-160 {
+    margin-top: var(--s160);
+}
 .mt-208 {
     margin-top: var(--s208);
 }
@@ -2208,6 +2256,9 @@ xxl = 1600px
 }
 .ml-128 {
     margin-left: var(--s128);
+}
+.ml-160 {
+    margin-left: var(--s160);
 }
 .ml-208 {
     margin-left: var(--s208);
@@ -2257,6 +2308,9 @@ xxl = 1600px
 .mb-128 {
     margin-bottom: var(--s128);
 }
+.mb-160 {
+    margin-bottom: var(--s160);
+}
 .mb-208 {
     margin-bottom: var(--s208);
 }
@@ -2304,6 +2358,9 @@ xxl = 1600px
 }
 .mr-128 {
     margin-right: var(--s128);
+}
+.mr-160 {
+    margin-right: var(--s160);
 }
 .mr-208 {
     margin-right: var(--s208);

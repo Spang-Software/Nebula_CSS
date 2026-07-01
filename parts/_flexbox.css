@@ -116,6 +116,9 @@ xxl = 1600px
 .gap-128 {
     gap: var(--s128);
 }
+.gap-160 {
+    gap: var(--s160);
+}
 .gap-208 {
     gap: var(--s208);
 }
@@ -164,6 +167,9 @@ xxl = 1600px
 .gap-x-128 {
     column-gap: var(--s128);
 }
+.gap-x-160 {
+    column-gap: var(--s160);
+}
 .gap-x-208 {
     column-gap: var(--s208);
 }
@@ -211,6 +217,9 @@ xxl = 1600px
 }
 .gap-y-128 {
     row-gap: var(--s128);
+}
+.gap-y-160 {
+    row-gap: var(--s160);
 }
 .gap-y-208 {
     row-gap: var(--s208);
